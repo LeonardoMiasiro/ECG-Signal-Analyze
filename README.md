@@ -1,4 +1,10 @@
-# ECG_signal_analyze
+# ECG Signal Analyze
+
+## Objetivo
+
+O objetivo deste projeto é desenvolver e analisar uma pipeline completa de processamento de sinais de ECG, utilizando técnicas de Processamento Digital de Sinais. Especificamente, busca-se investigar a remoção de ruído por meio de filtragem FIR, analisando a equivalência entre a convolução discreta no domínio do tempo e sua implementação eficiente via FFT, e explorar a extração de padrões locais utilizando filtros de Gabor 1D. Adicionalmente, pretende-se realizar a análise do conteúdo espectral do sinal por meio de representações tempo-frequência, como o espectrograma. Por fim, as características extraídas serão empregadas em uma tarefa de classificação de batimentos cardíacos, permitindo avaliar quantitativamente o desempenho do projeto desenvolvido.
+
+<img src="images/roadmap.png" width="60%">
 
 ## Project Parts
 
@@ -39,3 +45,8 @@ Para cada registro, há 3 tipos de arquivos.
 #### 7. Extração de Características
 
 #### 8. Classificação
+
+#### Referências
+
+- [Documentation for WFDB](https://wfdb.readthedocs.io/)
+- [Documentation for SciPy (Signal)](https://docs.scipy.org/doc/scipy/reference/signal.html)
